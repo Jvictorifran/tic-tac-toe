@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__children">
+                <span><img src="img/idosa-removebg-preview.png" alt=""></span>
+                <h1>JOGO DA VELHA</h1>
+                <img src="img/idosa-removebg-preview.png" alt="">
+            </div>
+        </div>
+            <div class="container__simbolo">
+                 <div class="escolha-simbolo">
+                    <button class="botao-escolha" onclick="escolherSimbolo('X')">Escolher X</button>
+                    <button class="botao-escolha" onclick="escolherSimbolo('O')">Escolher O</button>
+                </div>
+            </div>
+    </header>
+
+    <div class="container">
+        <div class="tabuleiro">
+            <div class="linha">
+                <div class="celula" data-index="0"></div>
+                <div class="celula" data-index="1"></div>
+                <div class="celula" data-index="2"></div>
+            </div>
+            <div class="linha">
+                <div class="celula" data-index="3"></div>
+                <div class="celula" data-index="4"></div>
+                <div class="celula" data-index="5"></div>
+            </div>
+            <div class="linha">
+                <div class="celula" data-index="6"></div>
+                <div class="celula" data-index="7"></div>
+                <div class="celula" data-index="8"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

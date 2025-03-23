@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #859B48;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.tabuleiro {
+    display: inline-block;
+    border: 4px solid #1D361F;
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px rgba(10, 40, 2, 0.3) ;
+}
+
+.linha {
+    display: flex;
+}
+
+.celula {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #1D361F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgba(10, 40, 2, 0.3) ;
+}
+
+.celula:hover {
+    background-color: lightgray;
+}
